@@ -1,0 +1,46 @@
+<div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="loginCard">
+    <p-card header="Login">
+        <p class="m-0">
+
+            <span class="p-float-label">
+                <input pInputText id="email" [(ngModel)]="email" />
+                <label for="username">Email</label>
+            </span>
+            <br />
+
+            <span class="p-float-label">
+
+                <input pInputText id="password" [(ngModel)]="password" />
+                <label for="username">Password</label>
+
+            </span>
+
+        </p>
+        <p-button label="Submit" (onClick)="handleLogin()"></p-button>
+    </p-card>
+
+
+
+</div>

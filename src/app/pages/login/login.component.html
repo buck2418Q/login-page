@@ -1,0 +1,51 @@
+<div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="loginCard">
+
+        <p-card header="Login" class="loginCard">
+            <div class="formArea">
+
+
+                <input width="100%" pInputText type="text" placeholder="Email" [(ngModel)]="username" />
+                <br />
+                <br />
+
+
+
+                <input pInputText type="password" placeholder="password" [(ngModel)]="password" />
+                <br />
+                <br />
+                <div class="buttonDiv">
+                    <p-button label="Login" [text]="true" [raised]="true" severity="success"
+                        (onClick)="Login()"></p-button>
+
+                </div>
+
+
+            </div>
+
+        </p-card>
+
+
+
+    </div>
+</div>
